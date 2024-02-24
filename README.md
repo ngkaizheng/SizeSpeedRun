@@ -47,3 +47,14 @@ SizeSpeedRun is open-source software licensed under the [MIT License](https://op
 If you have any questions, feedback, or inquiries regarding SizeSpeedRun, don't hesitate to reach out to us at [https://www.linkedin.com/in/kai-zheng-ng-a807b2251/] / [kaizheng01@hotmail.com].
 
 Thank you for playing and happy running! 🏃‍♂️🎮
+
+
+## Personal Usage
+## WebGL Build Compression and Hosting on GitHub
+When hosting a WebGL build on GitHub Pages, you may encounter issues related to build compression using gzip, resulting in errors such as "Unable to parse /build/file.framework.js.gz!" This typically occurs when the web server hosting the content is misconfigured to not serve the compressed files with the appropriate HTTP Response Header "Content-Encoding: gzip."
+
+**Error Description:**
+The error message indicates that the web browser is unable to parse the compressed file due to an incorrect configuration in the web server's response headers. When compression is enabled during the build process, files are often compressed using gzip to reduce their size and improve loading times. However, if the web server is not configured to correctly serve these compressed files, the browser cannot interpret them, resulting in parsing errors.
+
+**Solution:**
+To resolve this issue, you can disable build compression or ensure that the web server is properly configured to serve compressed files with the appropriate response headers.
