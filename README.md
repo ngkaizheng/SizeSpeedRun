@@ -1,2 +1,2 @@
-# SizeSpeedRun-
+# SizeSpeedRun!
 A simple Runner Game
