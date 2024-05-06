@@ -28,6 +28,10 @@ To play SizeSpeedRun, simply download the game files and run the executable file
 
 If you're interested in exploring the game's development process or modifying it to suit your preferences, feel free to dive into the Unity project files provided. You can explore the scripts, assets, and configurations to understand how the game was built and make your own adjustments.
 
+## Link To Play:
+
+https://ngkaizheng.github.io/SizeSpeedRun/
+
 ## Contribution:
 
 While SizeSpeedRun is primarily an educational project, contributions are welcome. If you have ideas for improvements, bug fixes, or additional features, feel free to fork the repository, make your changes, and submit a pull request.
